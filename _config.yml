@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: imagine
+subtitle: 'you not genius ,so become genius.'
+description: 'less is more'
 keywords:
-author: John Doe
-language: en
+author: imagine243
+language: zh-Hans
 timezone: ''
 
 # URL
@@ -97,9 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/imagine243/imagine243.github.io.git
+  branch: main
+  message: new blog
